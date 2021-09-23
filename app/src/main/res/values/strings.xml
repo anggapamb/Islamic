@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Islamic</string>
+    <string name="logo_islamic">logo islamic</string>
+    <string name="background">background</string>
+    <string name="assalamu_alikum_sahabat_islamic">Assalamu’alikum, sahabat ISLAMIC</string>
+    <string name="vector_home">vector home</string>
+    <string name="quotes">“Aku percaya, takdir Allah pastilah yang terbaik untukku, dan untukmu juga”</string>
+    <string name="asmaul_husna">Asmaul Husna</string>
+    <string name="icon_menu">icon menu</string>
+    <string name="wirid">Wirid</string>
+    <string name="tahlil">Tahlil</string>
 </resources>
