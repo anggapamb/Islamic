@@ -9,4 +9,16 @@
     <string name="icon_menu">icon menu</string>
     <string name="wirid">Wirid</string>
     <string name="tahlil">Tahlil</string>
+    <string name="doa_harian">Doa Harian</string>
+    <string name="shalat">Shalat</string>
+    <string name="ayat_kursi">Ayat Kursi</string>
+    <string name="kitab">Kitab</string>
+    <string name="kisah_nabi">Kisah Nabi</string>
+    <string name="about">About</string>
+    <string name="ungaran">Ungaran,</string>
+    <string name="_24_september_2021">24 September 2021</string>
+    <string name="hikmah_hari_ini">Quotes Hari Ini</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_lainnya">Menu Lainnya</string>
 </resources>

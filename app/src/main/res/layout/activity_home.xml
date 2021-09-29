@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/greyColor"
     tools:context=".activity.HomeActivity">
 
     <LinearLayout
@@ -21,6 +22,7 @@
                 android:layout_height="@dimen/_150sdp"
                 android:contentDescription="@string/background"
                 android:scaleType="fitXY"
+                android:rotation="180"
                 android:src="@drawable/background_green" />
 
             <TextView
@@ -32,7 +34,7 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:text="@string/assalamu_alikum_sahabat_islamic"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_13ssp"
+                android:textSize="@dimen/_12ssp"
                 android:textStyle="bold" />
 
             <androidx.cardview.widget.CardView
@@ -57,15 +59,138 @@
                         android:src="@drawable/vector_home"
                         android:contentDescription="@string/vector_home" />
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="@string/quotes"
-                        android:textSize="@dimen/_13ssp"
-                        android:layout_marginEnd="@dimen/_10sdp"
-                        android:textAlignment="center"
-                        android:textStyle="bold|italic"/>
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="italic"
+                            android:layout_gravity="end"
+                            android:text="@string/ungaran"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="textEnd"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:textStyle="italic"
+                            android:layout_gravity="end"
+                            android:text="@string/_24_september_2021"
+                            android:textSize="@dimen/_11ssp"
+                            android:textAlignment="textEnd"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text="Shubuh"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text="Dzuhur"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:textStyle="bold"
+                                    android:text="Ashr"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text="Maghrib"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text="Isya"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text=": 04.12"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text=": 11.33"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:textStyle="bold"
+                                    android:text=": 14.45"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text=": 17.36"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12ssp"
+                                    android:text=": 18.45"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/quotes"-->
+<!--                        android:textSize="@dimen/_13ssp"-->
+<!--                        android:layout_marginEnd="@dimen/_10sdp"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:textStyle="bold|italic"/>-->
 
                 </LinearLayout>
 
@@ -76,14 +201,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_16sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 tools:ignore="UselessParent">
@@ -94,12 +216,16 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
                         android:src="@drawable/allah"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
@@ -107,6 +233,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/asmaul_husna"
                         android:textSize="@dimen/size_text_icon"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
@@ -119,18 +246,23 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/wirid"
+                        android:src="@drawable/beads"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/wirid"
+                        android:text="@string/tahlil"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textSize="@dimen/size_text_icon"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
@@ -143,18 +275,23 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/beads"
+                        android:src="@drawable/wirid"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/tahlil"
+                        android:text="@string/wirid"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textSize="@dimen/size_text_icon"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
@@ -166,9 +303,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_16sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
-                android:layout_marginTop="@dimen/_16sdp"
                 android:orientation="horizontal"
                 android:baselineAligned="false"
                 tools:ignore="UselessParent">
@@ -179,18 +313,23 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/allah"
+                        android:src="@drawable/pray"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/asmaul_husna"
+                        android:text="@string/doa_harian"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textSize="@dimen/size_text_icon"
                         android:textAlignment="center"
                         android:textColor="@color/black"
@@ -204,18 +343,23 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/wirid"
+                        android:src="@drawable/shalat"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/wirid"
+                        android:text="@string/shalat"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textSize="@dimen/size_text_icon"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
@@ -223,108 +367,30 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linear_menu_lainnya"
+                    android:onClick="onClick"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?attr/selectableItemBackground"
                     tools:ignore="UseCompoundDrawables,UselessParent">
 
                     <ImageView
                         android:layout_width="@dimen/size_icon"
                         android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/beads"
+                        android:src="@drawable/allmenu4"
+                        android:paddingTop="@dimen/_10sdp"
                         android:contentDescription="@string/icon_menu" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/tahlil"
-                        android:textSize="@dimen/size_text_icon"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_16sdp"
-                android:layout_marginEnd="@dimen/_16sdp"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:orientation="horizontal"
-                android:baselineAligned="false"
-                tools:ignore="UselessParent">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    tools:ignore="UseCompoundDrawables,UselessParent">
-
-                    <ImageView
-                        android:layout_width="@dimen/size_icon"
-                        android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/allah"
-                        android:contentDescription="@string/icon_menu" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/asmaul_husna"
-                        android:textSize="@dimen/size_text_icon"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    tools:ignore="UseCompoundDrawables,UselessParent">
-
-                    <ImageView
-                        android:layout_width="@dimen/size_icon"
-                        android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/wirid"
-                        android:contentDescription="@string/icon_menu" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wirid"
-                        android:textSize="@dimen/size_text_icon"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    tools:ignore="UseCompoundDrawables,UselessParent">
-
-                    <ImageView
-                        android:layout_width="@dimen/size_icon"
-                        android:layout_height="@dimen/size_icon"
-                        android:src="@drawable/beads"
-                        android:contentDescription="@string/icon_menu" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/tahlil"
+                        android:text="@string/menu_lainnya"
+                        android:paddingBottom="@dimen/_10sdp"
                         android:textSize="@dimen/size_text_icon"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
@@ -334,6 +400,60 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardMaxElevation="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hikmah_hari_ini"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_islamic"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/text_quotes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="@string/quotes"
+                        android:layout_centerInParent="true"
+                        android:textAlignment="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="size_icon">@dimen/_60sdp</dimen>
-    <dimen name="size_text_icon">@dimen/_12ssp</dimen>
+    <dimen name="size_text_icon">@dimen/_10ssp</dimen>
 </resources>
