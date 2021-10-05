@@ -1,5 +1,6 @@
 package com.islamicapp.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.islamicapp.R
+import com.islamicapp.activity.AsmaulHusnaActivity
 import com.islamicapp.databinding.FragmentAllMenuBinding
 
 class AllMenuFragment : BottomSheetDialogFragment() {
@@ -24,6 +26,19 @@ class AllMenuFragment : BottomSheetDialogFragment() {
         // Inflate the layout for this fragment
         _binding = FragmentAllMenuBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.apply {
+
+            allMenuAsmaulHusna.setOnClickListener {
+                startActivity(Intent(requireContext(), AsmaulHusnaActivity::class.java))
+            }
+
+        }
+
     }
 
     override fun getTheme(): Int {

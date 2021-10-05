@@ -41,6 +41,7 @@
             tools:ignore="UselessParent">
 
             <LinearLayout
+                android:id="@+id/all_menu_asmaul_husna"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

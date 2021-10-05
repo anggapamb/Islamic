@@ -1,10 +1,10 @@
 package com.islamicapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import com.islamicapp.R
 import com.islamicapp.databinding.ActivityHomeBinding
 import com.islamicapp.fragment.AllMenuFragment
 
@@ -17,6 +17,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //transparant status bar
         window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
 
     }
@@ -26,6 +27,10 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
             binding.linearMenuLainnya -> {
                 val bottomSheetAllMenu = AllMenuFragment()
                 bottomSheetAllMenu.show(supportFragmentManager, "bottomsheet")
+            }
+
+            binding.linearAsmaulHusna -> {
+                startActivity(Intent(this, AsmaulHusnaActivity::class.java))
             }
         }
     }
