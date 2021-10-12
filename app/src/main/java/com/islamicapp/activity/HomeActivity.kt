@@ -32,6 +32,10 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
             binding.linearAsmaulHusna -> {
                 startActivity(Intent(this, AsmaulHusnaActivity::class.java))
             }
+
+            binding.linearTahlil -> {
+                startActivity(Intent(this, TahlilActivity::class.java))
+            }
         }
     }
 }

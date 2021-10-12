@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.islamicapp.R
 import com.islamicapp.activity.AsmaulHusnaActivity
+import com.islamicapp.activity.TahlilActivity
 import com.islamicapp.databinding.FragmentAllMenuBinding
 
 class AllMenuFragment : BottomSheetDialogFragment() {
@@ -31,12 +32,16 @@ class AllMenuFragment : BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        //set action
         binding.apply {
 
             allMenuAsmaulHusna.setOnClickListener {
                 startActivity(Intent(requireContext(), AsmaulHusnaActivity::class.java))
             }
 
+            allMenuTahlil.setOnClickListener {
+                startActivity(Intent(requireContext(), TahlilActivity::class.java))
+            }
         }
 
     }
@@ -44,5 +49,7 @@ class AllMenuFragment : BottomSheetDialogFragment() {
     override fun getTheme(): Int {
         return R.style.AppBottomSheetDialogTheme
     }
+
+
 
 }
