@@ -58,4 +58,20 @@
     <string name="tasbih_tahlil">سُبْحَانَ اللهِ وَبِحَمْدِهِ، سُبْحَانَ اللهِ وَبِحَمْدِهِ.* 10 سُبْحَانَ اللهِ وَبِحَمْدِهِ، سُبْحَانَ اللهِ الْعَظِيْمِ وَبِحَمْدِهِ</string>
     <string name="_17_shalawat_atas_nabi">17. Shalawat Atas Nabi</string>
     <string name="shalawat_atas_nabi">اللَّهُمَّ صَلِّ عَلَى حَبِيْبِكَ سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ *3 اَجْمَعِيْنَ</string>
+    <string name="informationdoaharian">informationDoaHarian</string>
+    <string name="this_image_about_avatar">this image about avatar</string>
+    <string name="text_lorem_ipsump">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar elementum integer enim neque. In tellus integer feugiat scelerisque. Duis at tellus at urna condimentum mattis. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Amet facilisis magna etiam tempor orci.</string>
+    <string name="anggapamb">: @anggapamb</string>
+    <string name="nomerku">: 0895 4125 79001</string>
+    <string name="instagram">instagram</string>
+    <string name="telegram">telegram</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="ayat_kursi_ar">ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ</string>
+    <string name="arti_ayat_kursi">Artinya: “Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa\'at di sisi Allah tanpa izin-Nya? Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.” (QS. Al Baqoroh: 255)</string>
+    <string name="tidur_amp_bangun"><![CDATA[Tidur & Bangun]]></string>
+    <string name="mendengar_adzan">Mendengar Adzan</string>
+    <string name="masuk_amp_keluar_kamar_mandi"><![CDATA[Masuk & Keluar Kamar Mandi]]></string>
+    <string name="masuk_masjid">Masuk Masjid</string>
+    <string name="makan_amp_minum"><![CDATA[Makan & Minum]]></string>
+    <string name="perjalanan">Perjalanan</string>
 </resources>

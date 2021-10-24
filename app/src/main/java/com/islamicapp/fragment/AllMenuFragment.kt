@@ -8,8 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.islamicapp.R
-import com.islamicapp.activity.AsmaulHusnaActivity
-import com.islamicapp.activity.TahlilActivity
+import com.islamicapp.activity.*
 import com.islamicapp.databinding.FragmentAllMenuBinding
 
 class AllMenuFragment : BottomSheetDialogFragment() {
@@ -42,6 +41,19 @@ class AllMenuFragment : BottomSheetDialogFragment() {
             allMenuTahlil.setOnClickListener {
                 startActivity(Intent(requireContext(), TahlilActivity::class.java))
             }
+
+            allMenuAbout.setOnClickListener {
+                startActivity(Intent(requireContext(), AboutAcitivity::class.java))
+            }
+
+            allMenuAyatKursi.setOnClickListener {
+                startActivity(Intent(requireContext(), AyatKursiActivity::class.java))
+            }
+
+            allMenuDoaHarian.setOnClickListener {
+                startActivity(Intent(requireContext(), DoaHarianActivity::class.java))
+            }
+
         }
 
     }

@@ -140,6 +140,7 @@
             tools:ignore="UselessParent">
 
             <LinearLayout
+                android:id="@+id/all_menu_doa_harian"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -199,6 +200,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/all_menu_ayat_kursi"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -296,6 +298,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/all_menu_about"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

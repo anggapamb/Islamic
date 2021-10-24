@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/greyColor"
+    tools:context=".activity.AyatKursiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ayat_kursi"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Ayat Kursi"
+        app:navigationIcon="@drawable/ic_back"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ayat_kursi_ar"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arti_ayat_kursi"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

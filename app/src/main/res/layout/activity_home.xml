@@ -312,6 +312,8 @@
                 tools:ignore="UselessParent">
 
                 <LinearLayout
+                    android:id="@+id/linear_doa_harian"
+                    android:onClick="onClick"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

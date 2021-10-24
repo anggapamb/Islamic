@@ -36,6 +36,11 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
             binding.linearTahlil -> {
                 startActivity(Intent(this, TahlilActivity::class.java))
             }
+
+            binding.linearDoaHarian -> {
+                startActivity(Intent(this, DoaHarianActivity::class.java))
+            }
+
         }
     }
 }
