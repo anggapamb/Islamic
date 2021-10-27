@@ -10,7 +10,9 @@
       <map>
         <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/activity_doa_harian.xml" value="0.2" />
         <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/fragment_all_menu.xml" value="0.15" />
+        <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/activity_sholat.xml" value="0.22" />
+        <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/activity_tahlil.xml" value="0.1" />
+        <entry key="..\:/androidstudio/Islamic/app/src/main/res/layout/fragment_all_menu.xml" value="0.18" />
       </map>
     </option>
   </component>

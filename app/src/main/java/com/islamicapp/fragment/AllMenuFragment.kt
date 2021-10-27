@@ -54,6 +54,10 @@ class AllMenuFragment : BottomSheetDialogFragment() {
                 startActivity(Intent(requireContext(), DoaHarianActivity::class.java))
             }
 
+            allMenuSholat.setOnClickListener {
+                startActivity(Intent(requireContext(), SholatActivity::class.java))
+            }
+
         }
 
     }

@@ -41,6 +41,10 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, DoaHarianActivity::class.java))
             }
 
+            binding.linearSholat -> {
+                startActivity(Intent(this, SholatActivity::class.java))
+            }
+
         }
     }
 }

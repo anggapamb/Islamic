@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Islamic">
-        <activity android:name=".activity.AyatKursiActivity"></activity>
+        <activity
+            android:name=".activity.SholatActivity"
+            android:exported="false" />
+        <activity android:name=".activity.AyatKursiActivity" />
         <activity android:name=".activity.AboutAcitivity" />
         <activity android:name=".activity.DoaHarianActivity" />
         <activity android:name=".activity.TahlilActivity" />
